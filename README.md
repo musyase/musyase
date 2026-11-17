@@ -1,17 +1,17 @@
 # Привет, я Кирилл 👋
 
-Разрабатываю инструменты на Python, локальные приложения и Android-проекты. Мне интересны задачи, где важны понятный пользовательский сценарий, проверяемый результат и аккуратная работа с данными.
+Разрабатываю инструменты на Python и локальные приложения. Мне интересны задачи, где важны понятный пользовательский сценарий, проверяемый результат и аккуратная работа с данными.
 
-## Проекты
+## Избранные проекты
 
-| Проект | Что делает | Что можно посмотреть в коде |
+| Проект | Польза и демонстрация | Что можно посмотреть в коде |
 | --- | --- | --- |
-| [Student AI Checker](https://github.com/musyase/student-ai-checker) | Локально проверяет студенческие DOCX по критериям с привязкой выводов к фрагментам документа | Python, валидация данных, интеграция с Ollama, пакетная обработка, web UI и Tauri |
-| [folder-audit](https://github.com/musyase/folder-audit) | Находит одинаковые файлы и сравнивает снимки папок по содержимому | Python CLI, SHA-256, безопасная работа с файловой системой, тесты и CI |
-| [Stav Electroset](https://github.com/musyase/stav-electroset-app) | Android-прототип для чтения новостей с локальным кэшем | Java, Retrofit, Room, LiveData, RecyclerView |
+| [Student AI Checker](https://github.com/musyase/student-ai-checker) | Локальный помощник преподавателя для разбора DOCX по критериям и доказательствам. Есть [синтетическое демо](https://github.com/musyase/student-ai-checker#посмотреть-за-две-минуты) и [CI](https://github.com/musyase/student-ai-checker/actions/workflows/unit-tests.yml) | Python, строгая валидация, Ollama, пакетная обработка, web UI и Tauri |
+| [folder-audit](https://github.com/musyase/folder-audit) | Находит одинаковые файлы и сравнивает снимки папок. [Открыть HTML-демо](https://musyase.github.io/folder-audit/demo.html) | Python CLI, SHA-256, офлайн-отчёт, тесты и CI |
 
-Ещё один проект: [FRVehicleDamageControl](https://github.com/musyase/FRVehicleDamageControl) — плагин на C# для настройки урона транспорта в игре.
+## Другие проекты
 
-## Как начать знакомство
+- [Stav Electroset](https://github.com/musyase/stav-electroset-app) — Android-прототип новостного раздела на Java с Retrofit, Room и LiveData; сборка проверяется в CI.
+- [FRVehicleDamageControl](https://github.com/musyase/FRVehicleDamageControl) — плагин на C# для настройки урона транспорта в игре.
 
-Для быстрого просмотра начните с `folder-audit`: пакет без runtime-зависимостей, команды и тесты запускаются локально. Для более сложной архитектуры откройте Student AI Checker; README описывает возможности, запуск и текущие ограничения.
+В Student AI Checker техническая работоспособность подтверждена тестами; [качество выставления оценок](https://github.com/musyase/student-ai-checker/blob/main/docs/quality-evaluation.md) ещё требует проверки на независимом обезличенном наборе работ.
