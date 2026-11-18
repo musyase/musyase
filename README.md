@@ -22,7 +22,7 @@ The app starts with fictional workshop data. Download the [debug APK](https://gi
 
 A Flutter app that finds shared meeting times from each person's local working hours. It handles daylight saving gaps and repeated hours, shows local UTC offsets, and exports an `.ics` invitation. People and hours are saved on the device.
 
-Try the [web app](https://musyase.github.io/meeting-window/) or download the [Android demo](https://github.com/musyase/meeting-window/releases/download/v0.1.0/meeting-window-android-demo.apk). Inspect the [time calculation](https://github.com/musyase/meeting-window/blob/main/lib/window_finder.dart), [clock change tests](https://github.com/musyase/meeting-window/blob/main/test/window_finder_test.dart), and [build checks](https://github.com/musyase/meeting-window/actions/workflows/check.yml).
+Try the [web app](https://musyase.github.io/meeting-window/) or download the [Android demo](https://github.com/musyase/meeting-window/releases/download/v0.1.1/meeting-window-android-demo.apk). Inspect the [time calculation](https://github.com/musyase/meeting-window/blob/main/lib/window_finder.dart), [clock change tests](https://github.com/musyase/meeting-window/blob/main/test/window_finder_test.dart), and [build checks](https://github.com/musyase/meeting-window/actions/workflows/check.yml).
 
 ### [CSV Change Review](https://github.com/musyase/csv-change-review)
 
