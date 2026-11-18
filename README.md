@@ -1,6 +1,6 @@
 # Kirill
 
-I build tools for document review, data comparison, and debugging. These projects show work in Python, TypeScript, C#, and Java. Each featured repository has a way to try it and a specific part of the code to inspect.
+I build tools for document review, data comparison, field auditing, and debugging. These projects show work in Python, Kotlin, TypeScript, C#, and Java. Each featured repository has a way to try it and a specific part of the code to inspect.
 
 ## Featured projects
 
@@ -11,6 +11,12 @@ A local DOCX review app for teachers. It extracts text and images, asks Ollama t
 The [fictional demo](https://github.com/musyase/student-ai-checker#try-the-review-workflow) runs without Ollama. The interface is currently in Russian. Grading accuracy still needs a study with teacher-scored work.
 
 Inspect the [validator](https://github.com/musyase/student-ai-checker/blob/main/src/student_ai_checker/grading/validator.py), [teacher review code](https://github.com/musyase/student-ai-checker/blob/main/src/student_ai_checker/teacher_review.py), and [tests](https://github.com/musyase/student-ai-checker/actions/workflows/unit-tests.yml).
+
+### [Pocket Audit](https://github.com/musyase/pocket-audit)
+
+An offline Android app for checking equipment against a CSV inventory. It scans labels on the device, records condition and optional photos, then exports a ZIP report. Unchecked items become missing only when the audit is completed. The ZIP includes checksums that an independent Python script can verify.
+
+The app starts with fictional workshop data. See the [emulator screenshots](https://github.com/musyase/pocket-audit#screenshots) and [build instructions](https://github.com/musyase/pocket-audit#build-and-try-it). Inspect the [CSV parser](https://github.com/musyase/pocket-audit/blob/main/app/src/main/java/dev/musyase/pocketaudit/domain/InventoryCsv.kt), [audit rules](https://github.com/musyase/pocket-audit/blob/main/app/src/main/java/dev/musyase/pocketaudit/domain/AuditLogic.kt), and [Android checks](https://github.com/musyase/pocket-audit/actions/workflows/android.yml).
 
 ### [CSV Change Review](https://github.com/musyase/csv-change-review)
 
