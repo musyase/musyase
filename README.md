@@ -16,7 +16,7 @@ Inspect the [validator](https://github.com/musyase/student-ai-checker/blob/main/
 
 An offline Android app for checking equipment against a CSV inventory. It scans labels on the device, records condition and optional photos, then exports a ZIP report. Unchecked items become missing only when the audit is completed. The ZIP includes checksums that an independent Python script can verify.
 
-The app starts with fictional workshop data. See the [emulator screenshots](https://github.com/musyase/pocket-audit#screenshots) and [build instructions](https://github.com/musyase/pocket-audit#build-and-try-it). Inspect the [CSV parser](https://github.com/musyase/pocket-audit/blob/main/app/src/main/java/dev/musyase/pocketaudit/domain/InventoryCsv.kt), [audit rules](https://github.com/musyase/pocket-audit/blob/main/app/src/main/java/dev/musyase/pocketaudit/domain/AuditLogic.kt), and [Android checks](https://github.com/musyase/pocket-audit/actions/workflows/android.yml).
+The app starts with fictional workshop data. Download the [debug APK](https://github.com/musyase/pocket-audit/releases/download/v0.1.0/pocket-audit-debug.apk) or see the [emulator screenshots](https://github.com/musyase/pocket-audit#screenshots). Inspect the [CSV parser](https://github.com/musyase/pocket-audit/blob/main/app/src/main/java/dev/musyase/pocketaudit/domain/InventoryCsv.kt), [audit rules](https://github.com/musyase/pocket-audit/blob/main/app/src/main/java/dev/musyase/pocketaudit/domain/AuditLogic.kt), and [Android checks](https://github.com/musyase/pocket-audit/actions/workflows/android.yml).
 
 ### [CSV Change Review](https://github.com/musyase/csv-change-review)
 
